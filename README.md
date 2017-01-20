@@ -1,10 +1,16 @@
-# drush-master
-Drush Master
-==============
+# Drush Master
+
+## Install script to shell
+
+`sudo ln -s [drush-master-dir]/drush-master /usr/bin/drush-master`
+
+## Use cases
 
 `drush-master updatedb`
 
 `drush-master cc all`
+
+## Description
 
 We are facing an issue when running drush -y @sites updatedb to do the update to all existed sites.
 The problem is when the number of the sites is big (~1000), the script stopped even the memory limit was increased to 2Gb.
