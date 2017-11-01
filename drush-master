@@ -17,6 +17,6 @@ do
   finalcommand="drush -y --uri=$uri $command"
   add_drush="&& drush -y --uri=$uri"
   finalcommand="${finalcommand//&&/$add_drush}"
-  echo "======= SITE: $uri $command ========="
-  $finalcommand
+  echo "======= SITE: $uri. COMMAND: $finalcommand ========="
+  eval $finalcommand
 done
