@@ -10,6 +10,9 @@
 
 `drush-master cc all`
 
+## Run multiple drush in each site
+`drush-master en update "&&" up --security-only "&&" dis update`
+
 ## Description
 
 We are facing an issue when running drush -y @sites updatedb to do the update to all existed sites.
