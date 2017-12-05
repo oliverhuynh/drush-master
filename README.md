@@ -13,6 +13,9 @@
 ## Run multiple drush in each site
 `drush-master en update "&&" up --security-only "&&" dis update`
 
+## Skip confirmation
+`drush-master -y cc all`
+
 ## Description
 
 We are facing an issue when running drush -y @sites updatedb to do the update to all existed sites.
