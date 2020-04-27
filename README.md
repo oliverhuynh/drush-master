@@ -1,5 +1,5 @@
 # Drush Master
-
+## DEPRECATED. `drush @sites` is developed!
 ## Install script to shell
 
 `sudo ln -s [drush-master-dir]/drush-master /usr/bin/drush-master`
